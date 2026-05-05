@@ -2,7 +2,7 @@
   "name": "Mis Ahorros",
   "short_name": "Ahorros",
   "description": "App para controlar mis ahorros",
-  "start_url": "/index.html",
+  "start_url": "/Ahorros/",
   "display": "standalone",
   "background_color": "#465666",
   "theme_color": "#3F4245",
