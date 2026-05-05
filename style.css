@@ -1,0 +1,102 @@
+/* ── RESET ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*======================================*/
+
+/* ── BASE ── */
+body {
+  background: #465666;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  width: 80%;
+  font-size: 1rem;
+}
+/*======================================*/
+
+/* ── PANTALLAS ── */
+#pantalla-login {
+  display: grid;
+  gap: 18px;
+  width: 300px;
+  padding: 70px 10px;
+  align-content: center;
+  justify-items: center;
+  background: #3F4245;
+  color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+}
+/*======================================*/
+
+#pantalla-ahorros {
+  display: grid;
+  gap: 12px;
+  width: 300px;
+  padding: 40px 30px;
+  align-self: center;
+  justify-items: center;
+  background: #3F4245;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+}
+/*======================================*/
+
+/* ── BOTONES ── */
+#entrar, #agregar, #retirar, #resetear {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+  font-size: 1rem;
+}
+
+#entrar {
+  background: green;
+  color: white;
+  transition: background 0.2s, color 0.2s;
+}
+#entrar:hover {
+  background: red;
+  color: black;
+}
+
+#agregar {
+  background: green;
+  color: black;
+}
+
+#retirar {
+  background: #CCE228;
+  color: black;
+}
+
+#resetear {
+  background: red;
+  color: white;
+}
+/*======================================*/
+
+
+/* ── CLASES ── */
+.error {
+  color: red;
+}
+
+.contra {
+  padding: 40px;
+}
+/*======================================*/
